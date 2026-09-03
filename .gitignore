@@ -1,0 +1,10 @@
+# Secrets and environment variables - NEVER commit these
+secrets/
+srcs/.env
+
+# WordPress and DB data (if ever created locally outside Docker volumes)
+data/
+
+# OS / editor junk
+.DS_Store
+*.swp

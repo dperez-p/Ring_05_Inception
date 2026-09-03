@@ -1,0 +1,4 @@
+[mysqld]
+# listen on all network interfaces, not just localhost,
+# so other containers (like wordpress) can connect to this service
+bind-address = 0.0.0.0
